@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "music-toggle",
+	"version": "${version}",
+	"name": "Music Toggle",
+	"description": "Adds a keybind for toggling the Music volume from it's current value to 0 and back again",
+	"authors": [
+		"Obqy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/music-toggle/icon.png",
+	"environment": "client",
+	"entrypoints": {
+      "client": [
+          "com.obqy.MusicToggle"
+      ]
+    },
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
